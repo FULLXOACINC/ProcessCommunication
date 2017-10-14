@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507918980 source:d:\1\os_2\os_2\main.cpp
+	<windows.h>
+	<stdio.h>
+	"process.h"
+
