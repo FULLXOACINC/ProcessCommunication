@@ -4,3 +4,14 @@
 	<stdio.h>
 	"process.h"
 
+1507970039 source:d:\бсг\ня\thread lab\processcommunication\main.cpp
+	<windows.h>
+	<stdio.h>
+	"process.h"
+
+1507971697 source:d:\бсг\ня\thread lab\processcommunication\p.cpp
+	<windows.h>
+	<stdio.h>
+	"process.h"
+	<time.h>
+
