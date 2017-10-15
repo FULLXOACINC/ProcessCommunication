@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="P1.exe P2.exe PEvent P1Event P2Event test.txt" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -20,6 +21,7 @@
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="D:\1\OS_2\OS_2\P1.exe D:\1\OS_2\OS_2\P2.exe  PEvent P1Event P2Event test.txt" />
 				<Compiler>
 					<Add option="-O2" />
 				</Compiler>
@@ -32,7 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="P.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
