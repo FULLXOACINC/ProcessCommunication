@@ -4,17 +4,21 @@
 #define TIME_OUT 20000
 #define SLEEP_TIME 1000
 #define P_PRINT "P1 %i\n"
+#define ARG_ERROR "incorrect argument set\n"
+#define ARG_SET 4
 
 int main(int argc, char *argv[])
 {
-
+    if(argc!=ARG_SET){
+        printf(ARG_ERROR);
+        return -5;
+    }
     char* PEventName=argv[1];
     char* P1EventName=argv[2];
     char* file=argv[3];
 
     HANDLE PEvent = CreateEvent(NULL,TRUE,FALSE,PEventName);
     HANDLE P1Event = CreateEvent(NULL,TRUE,FALSE,P1EventName);
-    int number=0;
 
     HANDLE FileMapping = OpenFileMapping(FILE_MAP_READ, FALSE, file);
     if(FileMapping==NULL){

@@ -7,7 +7,9 @@
 	<windows.h>
 	<stdio.h>
 
-1508095164 source:d:\1\os_2\os_2\p2\p2.cpp
+1508176335 source:d:\1\os_2\os_2\p2\p2.cpp
 	<windows.h>
 	<stdio.h>
+	<iostream>
+	<fstream>
 
